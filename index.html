@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Bootstrap: Grid System</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <title>Bootstrap: Grid System</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div class=" menu container navbar navbar-default role navigation container-fluid">
     <div class="row ">
-      <div class="col-lg-2">
+      <div class="col-md-2 col-sm-8 col-xs-6">
         <p>Site Name</p>  
       </div>
-      <div class=" main-menu col-xs-6 col-xs-offset-4 ">
+      <div class=" main-menu col-md-6 col-md-offset-4 col-sm-4 col-xs-3">
             <div class="navbar-header">
-              <div id="narbarCollapse" class="collapse navbar-collapse">
+              <div class="navbar-collapse">
                 <ul class="nav navbar-nav">
                   <li>
                     <a href="#">
-                      <span class="visible-sx-2 glyphicon glyphicon-home">
+                      <span class="visible-sx-3 visible-sm-2 glyphicon glyphicon-home">
                       </span> Noticias
                     </a>
                   </li>
-                  <li id="borde">
+                  <li class="hidden-lg">
                     <a href="#">
-                      <span class="visible-sx-2 glyphicon glyphicon-home">
+                      <span class="visible-md-3 visible-sm-3 glyphicon glyphicon-home">
+                      </span> Enlaces RSS 
+                    </a>
+                  </li>
+                  <li id="borde" class="hidden-md hidden-sm hidden-xs">
+                    <a href="#">
+                      <span class=" glyphicon glyphicon-home">
                       </span> Enlaces RSS
                     </a>
                   </li>
-                      <form class="hidde-xs hidden-sm navbar-form navbar-left" role="search">
+                      <form class="hidden-md hidden-sm hidden-xs navbar-form navbar-left" role="search">
                         <div class="form-group">
                           <input type="text" class="form-control" placeholder="ingresa tu busqueda">
                         </div>
@@ -69,151 +75,321 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-xs-12 col-sm-7 col-md-5">
-                      <div class="titulo">
-                        <h3>Historia destacada</h3>
-                      </div>
-                      <div class="row">
-                        <div class="arti col-xs-2 ">
-                          <p><strong>Artículo</strong></p>
-                        </div>
-                        <div class="col-xs-4 text-">
-                          <p>publicado al 09/10/15</p>
-                        </div>
-                      </div>
-                      <div class="texto row">
-                        <h2><strong>Lorem ipsum et diligat gentris</strong></h2>
-                        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
-                      </div>
-                      <div class="row">
-                         <ul class="lista">
-                                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"><strong> Ver mas ...</strong></a>
-                                </li>
-                                <li><span class="glyphicon glyphicon-play"></span><a href="#"><strong> Etiquetas:</strong></a>
-                                </li>
-                                <li><a href="#">Lorem</a>
-                                </li>
-                                <li><a href="#">ipsum</a>
-                                </li>
-                                <li ><a href="#">diligat</a>
-                                </li>
-                            </ul>
-                      </div>
-                        <hr>
-                          <div class="row">
-                            <div class="title col-xs-2">
-                            <p>Webzone</p>
-                          </div>
-                          <div class="arti col-xs-2">
-                            <p><strong>Artículo</strong></p>
-                          </div>
-                          <div class="col-xs-4 text-">
-                            <p>publicado al 09/10/15</p>
-                          </div>
-                        </div>
-                        <div class="texto row">
-                          <h2><strong>Lorem ipsum et diligat gentris</strong></h2>
-                          <img src="img/descarga.jpg">
-                          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
-                        </div>
-                        <div class="row">
-                           <ul class="lista">
-                                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"><strong> Ver mas ...</strong></a>
-                                  </li>
-                                  <li><span class="glyphicon glyphicon-play"></span><a href="#"><strong> Etiquetas:</strong></a>
-                                  </li>
-                                  <li><a href="#">Lorem</a>
-                                  </li>
-                                  <li><a href="#">ipsum</a>
-                                  </li>
-                                  <li ><a href="#">diligat</a>
-                                  </li>
-                              </ul>
-                        </div>
-                        <hr>
-                        <div class="row">
-                          <div class="arti col-xs-2">
-                            <p><strong>Artículo</strong></p>
-                          </div>
-                          <div class="col-xs-4 text-">
-                            <p>publicado al 09/10/15</p>
-                          </div>
-                        </div>
-                        <div class="texto row">
-                          <h2><strong>Lorem ipsum et diligat gentris</strong></h2>
-                          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
-                        </div>
-                        <div class="row">
-                           <ul class="lista">
-                                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"><strong> Ver mas ...</strong></a>
-                                  </li>
-                                  <li><span class="glyphicon glyphicon-play"></span><a href="#"><strong> Etiquetas:</strong></a>
-                                  </li>
-                                  <li><a href="#">Lorem</a>
-                                  </li>
-                                  <li><a href="#">ipsum</a>
-                                  </li>
-                                  <li ><a href="#">diligat</a>
-                                  </li>
-                              </ul>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="col-xs-12 col-sm-5 col-md-4">
-                      <div class="video row">
                         <div class="titulo">
                           <h3>Historia destacada</h3>
                         </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/9me1HvKs_1U" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                            <h3>Clarire DupondW</h3>
-                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
                         <div class="row">
-                          <div class="col-lg-3">
-                            
+                          <div class="arti col-xs-2 ">
+                            <p><strong>Artículo</strong></p>
+                          </div>
+                          <div class="col-xs-4 text-">
+                            <p>publicado al 09/10/15</p>
                           </div>
                         </div>
+                        <div class="texto row">
+                          <h2><strong>Lorem ipsum et diligat gentris</strong></h2>
+                          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                        </div>
+                        <div class="row">
+                           <ul class="lista">
+                                  <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"><strong> Ver mas ...</strong></a>
+                                  </li>
+                                  <li><span class="glyphicon glyphicon-play"></span><a href="#"><strong> Etiquetas:</strong></a>
+                                  </li>
+                                  <li><a href="#">Lorem</a>
+                                  </li>
+                                  <li><a href="#">ipsum</a>
+                                  </li>
+                                  <li ><a href="#">diligat</a>
+                                  </li>
+                              </ul>
+                        </div>
+                          <hr>
+                            <div class="row">
+                              <div class="title col-xs-2">
+                              <p>Webzone</p>
+                            </div>
+                            <div class="arti col-xs-2">
+                              <p><strong>Artículo</strong></p>
+                            </div>
+                            <div class="col-xs-4 text-">
+                              <p>publicado al 09/10/15</p>
+                            </div>
+                          </div>
+                          <div class="texto row">
+                            <h2><strong>Lorem ipsum et diligat gentris</strong></h2>
+                            <img src="img/descarga.jpg">
+                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                          </div>
+                          <div class="row">
+                             <ul class="lista">
+                                    <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"><strong> Ver mas ...</strong></a>
+                                    </li>
+                                    <li><span class="glyphicon glyphicon-play"></span><a href="#"><strong> Etiquetas:</strong></a>
+                                    </li>
+                                    <li><a href="#">Lorem</a>
+                                    </li>
+                                    <li><a href="#">ipsum</a>
+                                    </li>
+                                    <li ><a href="#">diligat</a>
+                                    </li>
+                                </ul>
+                          </div>
+                          <hr>
+                          <div class="row">
+                            <div class="arti col-xs-2">
+                              <p><strong>Artículo</strong></p>
+                            </div>
+                            <div class="col-xs-4 text-">
+                              <p>publicado al 09/10/15</p>
+                            </div>
+                          </div>
+                          <div class="texto row">
+                            <h2><strong>Lorem ipsum et diligat gentris</strong></h2>
+                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                          </div>
+                          <div class="row">
+                             <ul class="lista">
+                                    <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"><strong> Ver mas ...</strong></a>
+                                    </li>
+                                    <li><span class="glyphicon glyphicon-play"></span><a href="#"><strong> Etiquetas:</strong></a>
+                                    </li>
+                                    <li><a href="#">Lorem</a>
+                                    </li>
+                                    <li><a href="#">ipsum</a>
+                                    </li>
+                                    <li ><a href="#">diligat</a>
+                                    </li>
+                                </ul>
+                          </div>
+                          <hr>
                     </div>
-                    <div class="row">
-                      <div>
-                        <ul class="list-agenda">
-                          <li>
-                            <span class="text-center pull-left">23<br>Enero</span>
-                            <p>
-                              <strong>Lorem ipsum et diligat</strong><br>
-                              Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
-                              <span>Del 23 a 28 Diciembre 2015</span>
-                            </p>
-                          </li>
-                          <li>
-                            <span class="text-center pull-left">23<br>Enero</span>
-                            <p>
-                              <strong>Lorem ipsum et diligat</strong><br>
-                              Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
-                              <span>Del 23 a 28 Diciembre 2015</span>
-                            </p>
-                          </li>
-                          <li>
-                            <span class="text-center pull-left">23<br>Enero</span>
-                            <p>
-                              <strong>Lorem ipsum et diligat</strong><br>
-                              Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
-                              <span>Del 23 a 28 Diciembre 2015</span>
-                            </p>
-                          </li>
-                          <li>
-                            <span class="text-center pull-left">23<br>Enero</span>
-                            <p>
-                              <strong >Lorem ipsum et diligat</strong><br>
-                              Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
-                              <span>Del 23 a 28 Diciembre 2015</span>
-                            </p>
-                          </li>
-                        </ul>
+                    <div class="col-xs-12 col-sm-5 col-md-4">
+                        <div class="video row">
+                          <div class="titulo">
+                            <h3>Historia destacada</h3>
+                          </div>
+                          <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" width="100%" height="315" src="https://www.youtube.com/embed/9me1HvKs_1U" frameborder="0" allowfullscreen></iframe>
+                          </div>
+                              <h3>Clarire DupondW</h3>
+                              <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                        </div>
+                        <div class="agenda row container-fluid">
+                            <div class="titulo">
+                              <h3>Agenda</h3>
+                            </div>
+                            <ul class="list-agenda">
+                              <li>
+                                <span class="text-center pull-left">23<br>Enero</span>
+                                <p>
+                                  <strong>Lorem ipsum et diligat</strong><br>
+                                  Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
+                                  <span>Del 23 a 28 Diciembre 2015</span>
+                                </p>
+                              </li>
+                              <li>
+                                <span class="text-center pull-left">23<br>Enero</span>
+                                <p>
+                                  <strong>Lorem ipsum et diligat</strong><br>
+                                  Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
+                                  <span>Del 23 a 28 Diciembre 2015</span>
+                                </p>
+                              </li>
+                              <li>
+                                <span class="text-center pull-left">23<br>Enero</span>
+                                <p>
+                                  <strong>Lorem ipsum et diligat</strong><br>
+                                  Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
+                                  <span>Del 23 a 28 Diciembre 2015</span>
+                                </p>
+                              </li>
+                              <li>
+                                <span class="text-center pull-left">23<br>Enero</span>
+                                <p>
+                                  <strong >Lorem ipsum et diligat</strong><br>
+                                  Lorem ipsum dolor sit amet, consecteur<br>adispicing elit.<br>
+                                  <span>Del 23 a 28 Diciembre 2015</span>
+                                </p>
+                              </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <h4><strong>Mas Información</strong></h4>
+                        <div class="info row">
+                          <a href="#">Localidades</a>
+                          <h5><strong>Loret ipsum et diligat</strong></h5>
+                          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                        </div>
+                        <div class="info row">
+                          <a href="#">Hospimedia</a>
+                          <h5><strong>Loret ipsum et diligat</strong></h5>
+                          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 hidden-sm hidden-xs">
+                        
+                      <div class="mas row">
+                            <h3>Más Información</h3>
+                            <ul> 
+                                <li> 
+                                  <span class="glyphicon glyphicon-bookmark"></span></a>  <a href="#" > Finanzas y fiscalización   
+                                </li>
+                                <li> 
+                                  <span class="glyphicon glyphicon-bookmark"></span></a>  <a href="#" > Inverción y equipos   
+                                </li>
+                                <li> 
+                                  <span class="glyphicon glyphicon-bookmark"></span></a>  <a href="#" > Medio ambiente   
+                                </li>
+                                <li> 
+                                  <span class="glyphicon glyphicon-bookmark"></span></a>  <a href="#" > Habitat/Urbanismo   
+                                </li>
+                                <li> 
+                                  <span class="glyphicon glyphicon-bookmark"></span></a>  <a href="#" > Sanidad fwerfwerfwer          
+                                </li>
+                                <li> 
+                                  <span class="glyphicon glyphicon-bookmark"></span></a>  <a href="#" > Social / Servicios  
+                                </li>
+                                <li> 
+                                  <span class="glyphicon glyphicon-bookmark"></span></a>  <a href="#" > Transporte   qwefqwefq
+                                </li>
+                            </ul>
+                      </div>
+                      <div class="cuadro row">
+                            <h3>MAGAZINE</h3>
+                            <h4><strong>ECODEFI</strong></h4>
+                            <H5>ENQUETE</H5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptatem dolorem reprehenderit dolore quasi, reiciendis assumenda nesciunt.</p>
+                            <H5>PREGUNTAS</H5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                      </div>
+                        <br>
+                      <div class="cuadro row">
+                            <h3>MAGAZINE</h3>
+                            <h4><strong>ACCIONES COMUNES</strong></h4>
+                            <H5>ENQUETE</H5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptatem dolorem reprehenderit dolore quasi, reiciendis assumenda nesciunt.</p>
+                            <H5>PREGUNTAS</H5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> 
+                      </div>
+                      <div class="cuadro row">
+                            <h5><strong>Nueva generación de la internet</strong></h5> 
                       </div>
                     </div>
-                  </div>
-                  <div class="col-lg 3">
+                  </div >
+                  <hr>
+                  <div class="contactos container">
+                      <div class="row container-fluid">
+                        <div class="col-md-7 col-sm-6 col-xs-12">
+                          <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                              <ul class="mas">
+                                <h4>Rubros</h4>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Actualidades</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> En directo</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Reporte financiero</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Nuestra oferta</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> De Nosotros a ustedes</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-sm-4  visible-lg visible-md">
+                              <ul class="mas">
+                                <h4>Expertise</h4>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Finanzas y fiscalización</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Inverstigación y equipos</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Medio ambiente</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Habitat / Urbanismo</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Sanidad</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Social / Servicios</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Transporte</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6">
+                              <ul class="mas">
+                                <h4>Suscripción</h4>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Todo el flujo</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Flujo RSS para expertos</a>
+                                </li>
+                                <li>
+                                  <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Noticias</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-5 col-sm-6 col-xs-12">
+                          <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <ul class="mas">
+                              <h4>Nosotros</h4>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> ¿Quienes somos?</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Plan del sitio</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Información legal</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-6 col-xs-6">
+                            <ul class="mas">
+                              <h4>Contacto</h4>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Contáctanos</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> FAQ</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Haga sus preguntas</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Habitat / Urbanismo</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Sanidad</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Social / Servicios</a>
+                              </li>
+                              <li>
+                                <a href=""><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Transporte</a>
+                              </li>
+                            </ul>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>

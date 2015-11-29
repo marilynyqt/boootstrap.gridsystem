@@ -33,10 +33,12 @@
 	padding: 0 7px 0;
 }
 .titulo h3{
-	color: #D8D8D8;
+	width: 205px;
+	text-align: justify;
+	color: #585858;
 }
 .arti{
-	padding: 0 19px 0;
+	padding: -5px;
 	border-right-style: solid;
 }
 .title{
@@ -58,6 +60,7 @@
 	width: 100%;
 	padding: 10px;
 }
+  /*columna-4*/
 .lista li{
 	list-style:none;
 	margin:2px;
@@ -66,12 +69,20 @@
 .lista li span{
 	margin: 0 0 0 20px;
 }
-/*cilumna-4*/
 .video{
 	padding: 10px;
 	background:  #A4A4A4;
 }
+.agenda{
+	padding: 5%;
+}
+.list-agenda{
+	width:100%;
+	padding: 0;
+}
 .list-agenda li{
+	list-style:none;
+	padding: 5px;
   margin-bottom: 12px;
 }
 .list-agenda li>span{
@@ -95,3 +106,23 @@
   font-size: 14px;
   color: black;
 }
+  /*columna-3*/
+.info{
+	padding: 5px;
+}
+.mas{
+	width: 100%; 
+}
+.mas li{
+	list-style: none;
+}
+.cuadro{
+	padding: 10px;
+	margin: 2px;
+	background:#A4A4A4; 
+}
+  /*fooder*/
+.contactos{
+	width: 100%;
+}
+/*fin-bienvenidos*/
